@@ -139,5 +139,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 For any queries or suggestions, reach out at:
-- Email: [your-email@example.com]
-- LinkedIn: [Your LinkedIn Profile]
+- Email: [bejoyjbt7.com]
+- LinkedIn: [https://www.linkedin.com/in/bejoyjbt/]
