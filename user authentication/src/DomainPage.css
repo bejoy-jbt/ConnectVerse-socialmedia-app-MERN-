@@ -1,0 +1,71 @@
+/* Main Container */
+.domainPage {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px !important;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  /* Search Section */
+  .searchSection {
+    margin-bottom: 30px;
+  }
+  
+  .searchInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .searchInput:focus {
+    border-color: #6a11cb;
+  }
+  
+  /* Domain List */
+  .domainList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .domainCard {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .domainCard h3 {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .domainCard p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .domainCard strong {
+    color: #6a11cb;
+  }
+  
+  .domainCard:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+  }
+  

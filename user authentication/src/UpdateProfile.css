@@ -1,0 +1,144 @@
+/* General Styles */
+.updateProfile-wrapper {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color:; /* Added background color for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white !important;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.updateProfile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+
+label {
+  font-size: 1rem;
+  color: white; /* Updated to white for better visibility */
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  color: black;
+  background-color:; /* Dark background for inputs */
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #6a11cb;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+button[type="submit"] {
+  padding: 12px 25px;
+  background-color: #6a11cb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: center;
+}
+
+button[type="submit"]:hover {
+  background-color: #2575fc;
+  transform: scale(1.05);
+}
+
+/* Profile Picture Section */
+.updateProfile-currentPicture {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.updateProfile-currentPicture h2 {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.updateProfile-picture {
+  margin-top: 20px;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.updateProfile-picture:hover {
+  transform: scale(1.05);
+}
+
+/* File Input for Profile Picture */
+input[type="file"] {
+  display: none;
+}
+
+.profilePicture-label {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #6a11cb;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  align-self: center;
+  margin-top: 15px;
+}
+
+.profilePicture-label:hover {
+  background-color: #2575fc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .updateProfile-wrapper {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+
+  .updateProfile-currentPicture img {
+    max-width: 150px;
+  }
+}

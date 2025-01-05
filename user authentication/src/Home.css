@@ -1,0 +1,126 @@
+/* General Page Styles */
+body{
+  background:url(./new423.jpg) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.min-vh-100 {
+  min-height: 100vh !important;
+}
+
+
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-primary {
+  color: #00e676 !important; /* Updated to match active tab highlight */
+}
+
+.text-secondary {
+  color: #6c757d !important;
+}
+
+/* Navbar Container Styles */
+.navbar-custom {
+  position: fixed !important;
+  top: 0 !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 90% !important; /* Increased width to 90% */
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  padding: 1rem;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 1000 !important;
+  transition: all 0.3s ease-in-out !important;
+  margin-top: 40px !important;
+}
+
+
+
+.navbar-custom:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  transform: translateX(-50%) scale(1.01);
+}
+
+/* Navbar Button Styles */
+.navbar-link-custom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black !important;
+  font-size: 20px !important;
+  font-weight: bold;
+  
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+h2{
+  font-family: Elegant Lines !important;
+  color:white !important;
+  font-size:3rem !important;
+  font-weight: bold !important;
+  margin-top: -20px !important;
+}
+
+.navbar-link-custom span {
+  font-size: 1.7rem; /* Larger icons */
+}
+
+.navbar-link-custom:hover {
+  color: #ffeb3b; /* Bright yellow hover effect */
+  transform: scale(1.1);
+}
+
+.navbar-link-custom.text-primary {
+  color: #00e676; /* Active state for both desktop and mobile */
+}
+
+/* Mobile Navigation Styles */
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  padding: 1rem;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px 20px 0 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-link-custom.text-primary {
+  color: #ffeb3b; /* Active state for mobile */
+}
+
+.navbar-link-custom:hover {
+  color: #ff6a00;
+  transform: translateY(-3px);
+}
+
+/* Responsive View Adjustments */
+@media (max-width: 768px) {
+  .navbar-custom {
+    width: 95%;
+    padding: 0.8rem;
+  }
+
+  .navbar-link-custom {
+    font-size: 0.9rem;
+  }
+}
