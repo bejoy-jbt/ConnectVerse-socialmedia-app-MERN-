@@ -1,5 +1,3 @@
-# ConnectVerse-socialmedia-app-MERN-
- A dynamic platform for professional networking, collaboration, and knowledge-sharing. Built using the MERN stack, it offers real-time chat, customizable profiles, domain-specific searches, and secure interactions in a user-friendly environment.
 # ConnectVerse: A Platform to Exchange Your Thoughts
 
 ## Overview
@@ -86,3 +84,60 @@ Engage in real-time conversations with friends and groups.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/connectverse.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd connectverse
+   ```
+
+3. Navigate to the server folder and start the server:
+   ```bash
+   cd server
+   npm start
+   ```
+
+4. Navigate to the "user authentication" module and start the development environment:
+   ```bash
+   cd "user authentication"
+   npm run dev
+   ```
+
+5. Install dependencies for the project:
+   ```bash
+   npm install
+   ```
+
+6. Set up the environment variables:
+   - Create a `.env` file and configure the necessary variables (e.g., MongoDB URI, JWT secret).
+
+7. Start the development server:
+   ```bash
+   npm start
+   ```
+
+8. Open the application in your browser:
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## Contributing
+We welcome contributions! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Commit your changes and push them to your fork.
+4. Open a pull request.
+
+---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## Contact
+For any queries or suggestions, reach out at:
+- Email: [your-email@example.com]
+- LinkedIn: [Your LinkedIn Profile]
